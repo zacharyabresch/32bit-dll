@@ -20,7 +20,7 @@ var RTLD_GLOBAL = ffi.DynamicLibrary.FLAGS.RTLD_GLOBAL;
   */
 var MODE = RTLD_NOW || RTLD_GLOBAL;
 
-var libPath = path.resolve(__dirname, 'c-libs/VOClient_orig_32.dll');
+var libPath = path.resolve(__dirname, 'c-libs/VOClient.dll');
 
-console.log(libPath);
 var dynamicLibrary = ffi.DynamicLibrary(libPath, MODE);
+console.log('success')
