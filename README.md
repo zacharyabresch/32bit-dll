@@ -18,7 +18,7 @@ In order to run this project on a Windows machine, you will first need to setup 
 
 1. Clone this repository: `git clone git@github.com:zacharyabresch/32bit-dll.git`
 2. `cd 32bit-dll`
-3. `npm i`
+3. `npm i --arch=ia32`
 4. Copy your version of `VOClient.dll` into the `c-libs` folder
 4. `node ./index.js`
 
